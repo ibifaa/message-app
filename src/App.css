@@ -1,38 +1,92 @@
-.App {
+
+body{
+  background-color: #E0E2E5;
+}
+
+.formHead{
+  color: #140444;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form{
+  width: 30%;
+  background-color: #ADB3ED;
+  margin: 20px auto;
+  padding: 40px;
+  border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input{
+  width: 90%;
+  padding: 15px;
+  border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sub{
+  background-color: #140444;
+  width: 100%;
   color: white;
+  align-items: center;
+  font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
+.des{
+  height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.user-image{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.flex{
+  display: flex;
+}
+
+.navigation{
+  align-items: center;
+  /* justify-content: right; */
+  background-color:#140444;
+  color: white;
+  height: 44px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.brand-name{
+  justify-content: left;
+  color: #ADB3ED;
+  padding: 10px;
+}
+p{
+  margin-right: 20px;
+}
+
+.svg-icon{
+  color: white;
+  height: 30px;
+  width: 30px;
+  
+}
+
+.user-details{
+  align-items: center;
+  
+}
+
+
+.link{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+
+}
+
+.links{
+  text-align: right;
+  width: 60%;
+  
+ 
 }
