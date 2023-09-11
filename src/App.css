@@ -3,6 +3,69 @@ body{
   background-color: #E0E2E5;
 }
 
+.main-section{
+  background-color: #ADB3ED;
+  /* padding: 20px; */
+  
+}
+
+.title-section{
+  display: flex;
+  align-items: center;
+}
+
+.likes-section{
+  display: flex;
+  align-items: center;
+}
+
+.login-section{
+  background-color:#ADB3ED;
+  width: 100%;
+  padding: 20px;
+  height: 1000vh;
+  
+}
+
+.login-box{
+  width: 40%;
+  background-color: #E0E2E5;
+  padding: 40px;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.login-btn{
+  
+  background-color: #0057e7;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  margin: 10px;
+}
+
+
+
+.center{
+  text-align: center;
+}
+.btn{
+  border: 0;
+  background-color:#E0E2E5;
+ 
+}
+.message-box{
+  background-color: #E0E2E5;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 .formHead{
   color: #140444;
   text-align: center;
@@ -51,14 +114,14 @@ body{
   background-color:#140444;
   color: white;
   height: 44px;
-  padding-left: 20px;
-  padding-right: 20px;
+ 
 
 }
 .brand-name{
   justify-content: left;
   color: #ADB3ED;
-  padding: 10px;
+  padding: 20px;
+  width: 75%;
 }
 p{
   margin-right: 20px;
@@ -86,7 +149,7 @@ p{
 
 .links{
   text-align: right;
-  width: 60%;
+  /* width: 60%; */
   
  
 }

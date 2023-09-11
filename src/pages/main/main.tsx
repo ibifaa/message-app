@@ -30,9 +30,9 @@ export const Main = () =>{
     useEffect(() => {
       getPosts();
     }, [])
-
+//  use effect hook is used to re
   return (
-    <div>
+    <div className='main-section'>
       {postList?.map((msg) => (
     <Message msg ={msg}/>
     ))}
